@@ -7,7 +7,6 @@ import requests
 CURRENCY_RATES_FILE = "currency_rates.json"
 API_KEY = os.getenv('EXCHANGE_RATE_API_KEY')
 
-
 def get_currency_rate(currency: str) -> float:
     """Получает курс валюты от API и возвращает его в виде float"""
 
